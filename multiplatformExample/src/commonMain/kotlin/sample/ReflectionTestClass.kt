@@ -4,8 +4,8 @@ import ch.hippmann.annotation.Register
 
 @Register
 class ReflectionTestClass {
+    val exportedProperty: String = ""
 
-    @Register
     fun reflectionTestFunction() {
 
     }
