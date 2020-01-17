@@ -5,12 +5,8 @@ import javax.lang.model.SourceVersion
 import javax.lang.model.element.TypeElement
 import javax.tools.Diagnostic
 
-@Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION)
-@Retention(AnnotationRetention.RUNTIME)
-annotation class Register
-
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
-@SupportedAnnotationTypes("ch.hippmann.annotationprocessor.Register")
+@SupportedAnnotationTypes("ch.hippmann.annotation.Register")
 @SupportedOptions(RegisterAnnotationProcessor.KAPT_KOTLIN_GENERATED_OPTION_NAME)
 class RegisterAnnotationProcessor : AbstractProcessor(){
 

@@ -1,4 +1,0 @@
-rootProject.name = 'annotations'
-
-
-enableFeaturePreview('GRADLE_METADATA')

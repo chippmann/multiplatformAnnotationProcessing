@@ -1,4 +1,4 @@
-import ch.hippmann.annotationprocessor.Register
+import ch.hippmann.annotation.Register
 
 @Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.RUNTIME)

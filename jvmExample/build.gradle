@@ -14,6 +14,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
     implementation(project(":annotationProcessor"))
+    implementation(project(":annotations"))
     kapt project(":annotationProcessor")
     annotationProcessor project(":annotationProcessor")
 

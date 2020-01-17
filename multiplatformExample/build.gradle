@@ -28,6 +28,7 @@ kotlin {
         commonMain {
             dependencies {
                 implementation kotlin('stdlib-common')
+                implementation project(":annotations")
             }
         }
         commonTest {
@@ -39,7 +40,7 @@ kotlin {
         jvmMain {
             dependencies {
                 implementation kotlin('stdlib-jdk8')
-                implementation project(":annotationProcessor")
+//                implementation project(":annotationProcessor")
             }
         }
         jvmTest {

@@ -6,8 +6,8 @@
         <dependsOnModuleNames>multiplatformExample_commonTest</dependsOnModuleNames>
         <sourceSets>
           <sourceSet>com.example.multiplatformExample.linuxMain</sourceSet>
-          <sourceSet>com.example.multiplatformExample.commonTest</sourceSet>
           <sourceSet>com.example.multiplatformExample.commonMain</sourceSet>
+          <sourceSet>com.example.multiplatformExample.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>linuxTest|:multiplatformExample:linuxTest|linux</externalSystemTestTasks>

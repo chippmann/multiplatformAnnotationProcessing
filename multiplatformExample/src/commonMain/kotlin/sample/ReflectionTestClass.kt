@@ -1,12 +1,12 @@
 package sample
 
-import ch.hippmann.annotationprocessor.Register
+import ch.hippmann.annotation.Register
 
 @Register
 class ReflectionTestClass {
 
     @Register
-    fun blubb() {
+    fun reflectionTestFunction() {
 
     }
 }
