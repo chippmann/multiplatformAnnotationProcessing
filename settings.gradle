@@ -1,0 +1,5 @@
+rootProject.name = 'annotationProcessorTest'
+include(":annotations")
+include(":annotationProcessor")
+include(":jvmExample")
+include(":multiplatformExample")

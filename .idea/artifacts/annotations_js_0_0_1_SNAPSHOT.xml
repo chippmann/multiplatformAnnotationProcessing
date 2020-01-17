@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="annotations-js-0.0.1-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/annotations/build/libs</output-path>
+    <root id="archive" name="annotations-js-0.0.1-SNAPSHOT.jar">
+      <element id="module-output" name="com.example.annotations.jsMain" />
+    </root>
+  </artifact>
+</component>
