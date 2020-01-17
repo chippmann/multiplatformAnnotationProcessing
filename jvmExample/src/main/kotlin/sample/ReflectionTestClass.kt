@@ -1,3 +1,5 @@
+package sample
+
 import ch.hippmann.annotation.Register
 
 @Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION)
