@@ -5,8 +5,6 @@
       <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []" useProjectSettings="false" isTestModule="true" externalProjectId=":multiplatformExample">
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>
-          <externalSystemTestTask>jsBrowserTest|:multiplatformExample:jsTest|js</externalSystemTestTask>
-          <externalSystemTestTask>jsNodeTest|:multiplatformExample:jsTest|js</externalSystemTestTask>
           <externalSystemTestTask>jvmTest|:multiplatformExample:jvmTest|jvm</externalSystemTestTask>
           <externalSystemTestTask>linuxTest|:multiplatformExample:linuxTest|linux</externalSystemTestTask>
         </externalSystemTestTasks>

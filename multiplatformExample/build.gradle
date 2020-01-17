@@ -13,12 +13,6 @@ apply plugin: 'maven-publish'
 
 kotlin {
     jvm()
-    js {
-        browser {
-        }
-        nodejs {
-        }
-    }
     // For ARM, should be changed to iosArm32 or iosArm64
     // For Linux, should be changed to e.g. linuxX64
     // For MacOS, should be changed to e.g. macosX64
@@ -40,23 +34,12 @@ kotlin {
         jvmMain {
             dependencies {
                 implementation kotlin('stdlib-jdk8')
-//                implementation project(":annotationProcessor")
             }
         }
         jvmTest {
             dependencies {
                 implementation kotlin('test')
                 implementation kotlin('test-junit')
-            }
-        }
-        jsMain {
-            dependencies {
-                implementation kotlin('stdlib-js')
-            }
-        }
-        jsTest {
-            dependencies {
-                implementation kotlin('test-js')
             }
         }
         linuxMain {
